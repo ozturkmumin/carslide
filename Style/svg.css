@@ -1,0 +1,42 @@
+.svg-setting {
+    width: 85%;
+    height: 85%;
+    cursor: pointer;
+
+}
+
+.svg-setting:hover {
+    transform: scale(1.3);
+    transition: all 0.5s;
+}
+.arrow-position{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 40%;
+    width: 25%;
+  
+}
+.svg-setting-arrow{
+    width: 45%;
+    height: 35%;
+    cursor: pointer;
+   
+    
+}
+.svg-setting-arrow:hover {
+    transform: scale(1.3);
+    transition: all 0.5s;
+    
+}
+@media only screen and (max-width: 574px) {
+    .svg-setting-arrow{
+      margin: 9px;
+    }}
+    .border-top{
+        border-top: 1px solid #7D9D9C;
+        width: 75%;
+        height: 0px;
+        position: relative;
+        top: 20px;
+    }

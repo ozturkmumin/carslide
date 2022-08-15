@@ -1,0 +1,24 @@
+@media only screen and (min-width: 1200px) {
+    .main-container {
+      font-size: 24px;
+    }
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .main-container {
+        font-size: 18px;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .main-container {
+        font-size: 16px;
+    }
+  }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .main-container {
+        font-size: 14px;
+    }
+  }
+  @media only screen and (max-width: 574px) {
+    .main-container {
+        font-size: 14px;
+    }}
